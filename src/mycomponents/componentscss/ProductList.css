@@ -1,119 +1,262 @@
-#main {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items:flex-start;
-    justify-content: space-evenly;
-    background-color: rgb(112, 133, 247);
-    color: white;
+@media (min-width:600px) {
+    #main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        background-color: rgb(112, 133, 247);
+        color: white;
+    }
+
+    .one {
+        width: 250px;
+        height: 30px;
+        margin: 25px;
+        border-radius: 10px;
+        text-transform: capitalize;
+    }
+
+    #one {
+        display: flex;
+        width: 250px;
+        height: 35px;
+        margin: 25px;
+        background-color: blue;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    #one:hover {
+        cursor: pointer;
+        background-color: red;
+        font-size: 30px;
+    }
+
+    .items {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        background-color: rgb(112, 133, 247);
+        color: white;
+    }
+
+    .ione {
+        width: 250px;
+        color: black;
+        font-size: 25px;
+    }
+
+    .ione span {
+        color: white;
+        font-size: 15px;
+        margin-left: 10px;
+        background-color: rgb(126, 133, 177);
+        font-weight: 500;
+    }
+
+    .itwo {
+        font-size: 15px;
+        display: flex;
+        margin: 10px;
+    }
+
+    .min {
+        width: 30px;
+        height: 30px;
+        background-color: red;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quan {
+        width: 30px;
+        height: 30px;
+        background-color: yellow;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .max {
+        width: 30px;
+        height: 30px;
+        background-color: green;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .min:hover,
+    .max:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+
+    .ithree {
+        width: 30px;
+        height: 30px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .ifour {
+        width: 250px;
+        height: 35px;
+        background-color: red;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .ifour:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
 }
 
-.one {
-    width: 250px;
-    height: 30px;
-    margin: 25px;
-    border-radius: 10px;
-    text-transform: capitalize;
-}
-#one {
-    display: flex;
-    width: 250px;
-    height: 35px;
-    margin: 25px;
-    background-color: blue;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-}
-#one:hover {
-    cursor: pointer;
-    background-color: red;
-    font-size: 30px;
-}
+@media (max-width:599px) {
+    #main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-color: rgb(112, 133, 247);
+        color: white;
+    }
 
-.items {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items:flex-start;
-    justify-content: space-evenly;
-    background-color: rgb(112, 133, 247);
-    color: white;
-}
+    .one {
+        width: 250px;
+        height: 30px;
+        margin: 25px;
+        border-radius: 10px;
+        text-transform: capitalize;
+    }
 
-.ione {
-    width: 250px;
-    color: black;
-    font-size: 25px;
-}
-.ione span {
-    color: white;
-    font-size: 15px; 
-    margin-left: 10px;
-    background-color: rgb(126, 133, 177);
-    font-weight: 500;
-}
+    #one {
+        display: flex;
+        width: 250px;
+        height: 35px;
+        margin: 25px;
+        background-color: blue;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
 
-.itwo {
-    font-size: 15px;
-    display: flex;
-    margin: 10px;
-}
-.min {
-    width: 30px;
-    height: 30px;
-    background-color: red;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.quan {
-    width: 30px;
-    height: 30px;
-    background-color: yellow;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.max {
-    width: 30px;
-    height: 30px;
-    background-color: green;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.min:hover, .max:hover {
-    cursor: pointer;
-    opacity: 0.7;
-}
+    #one:hover {
+        cursor: pointer;
+        background-color: red;
+        font-size: 30px;
+    }
 
-.ithree {
-    width: 30px;
-    height: 30px;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    font-weight: 600;
-}
+    .items {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        background-color: rgb(112, 133, 247);
+        color: white;
+    }
 
-.ifour {
-    width: 250px;
-    height: 35px;
-    background-color: red;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-}
-.ifour:hover {
-    cursor: pointer;
-    opacity: 0.7;
+    .ione {
+        width: 22vw;
+        color: black;
+        font-size: 4vw;
+    }
+
+    .ione span {
+        color: white;
+        font-size: 3.5vw;
+        margin-left: 10px;
+        background-color: rgb(126, 133, 177);
+        font-weight: 500;
+    }
+
+    .itwo {
+        font-size: 15px;
+        display: flex;
+        margin: 10px;
+    }
+
+    .min {
+        width: 4vw;
+        height: 4vw;
+        background-color: red;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quan {
+        width: 4vw;
+        height: 4vw;
+        background-color: yellow;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .max {
+        width: 4vw;
+        height: 4vw;
+        background-color: green;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .min:hover,
+    .max:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+
+    .ithree {
+        width: 4vw;
+        height: 4vw;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.5vw;
+        font-weight: 600;
+    }
+
+    .ifour {
+        width: 20vw;
+        height: 6vw;
+        background-color: red;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .ifour:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
 }
