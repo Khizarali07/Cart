@@ -140,6 +140,7 @@
         background-color: rgb(112, 133, 247);
         color: white;
     }
+<<<<<<< HEAD
 
     .one {
         width: 250px;
@@ -260,3 +261,126 @@
         opacity: 0.7;
     }
 }
+=======
+
+    .one {
+        width: 250px;
+        height: 30px;
+        margin: 25px;
+        border-radius: 10px;
+        text-transform: capitalize;
+    }
+
+    #one {
+        display: flex;
+        width: 250px;
+        height: 35px;
+        margin: 25px;
+        background-color: blue;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    #one:hover {
+        cursor: pointer;
+        background-color: red;
+        font-size: 30px;
+    }
+
+    .items {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        background-color: rgb(112, 133, 247);
+        color: white;
+    }
+
+    .ione {
+        width: 22vw;
+        color: black;
+        font-size: 4vw;
+    }
+
+    .ione span {
+        color: white;
+        font-size: 3.5vw;
+        margin-left: 10px;
+        background-color: rgb(126, 133, 177);
+        font-weight: 500;
+    }
+
+    .itwo {
+        font-size: 15px;
+        display: flex;
+        margin: 10px;
+    }
+
+    .min {
+        width: 4vw;
+        height: 4vw;
+        background-color: red;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quan {
+        width: 4vw;
+        height: 4vw;
+        background-color: yellow;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .max {
+        width: 4vw;
+        height: 4vw;
+        background-color: green;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .min:hover,
+    .max:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+
+    .ithree {
+        width: 4vw;
+        height: 4vw;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.5vw;
+        font-weight: 600;
+    }
+
+    .ifour {
+        width: 20vw;
+        height: 6vw;
+        background-color: red;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .ifour:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+}
+
+>>>>>>> d9f3d0c5570d1e7955165751964ab0915fb3943d
