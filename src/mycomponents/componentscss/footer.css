@@ -37,7 +37,6 @@
 }
 
 @media (max-width:499px) {
-<<<<<<< HEAD
 
     #footer {
         display: flex;
@@ -73,8 +72,6 @@
         align-items: center;
         justify-content: center;
     }
-}
-=======
 
     #footer {
         display: flex;
@@ -112,5 +109,3 @@
     }
 
 }
-
->>>>>>> d9f3d0c5570d1e7955165751964ab0915fb3943d
